@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taste Haven Restaurant | Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER / NAVBAR -->
+  <header>
+    <nav class="container">
+      <div class="logo">
+        <img src="logo.png" alt="Taste Haven Logo">
+      
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reservation">Reservation</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home">
+    <div class="hero-content">
+      <h1>Welcome to Taste Haven Restaurant</h1>
+      <p>Experience delicious meals made with passion.</p>
+      <a href="#reservation" class="btn">Reserve a Table</a>
+    </div>
+  </section>
+
+  <!-- FEATURED DISHES -->
+  <section id="menu">
+    <div class="container">
+      <h2>Featured Dishes</h2>
+      <div class="menu-grid">
+
+        <div class="card">
+          <img src="jollof.jpeg" alt="Jollof Rice & Chicken">
+          <!---<div></div><div class="img-placeholder">Jollof Rice photo</div>--->
+          <div class="card-body">
+            <h3>Jollof Rice & Chicken</h3>
+            <p>Classic Nigerian party rice served with grilled chicken.</p>
+            <span class="price">₦6,000</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="grilled-fish.jpeg" alt="Grilled Fish">
+          
+          <div class="card-body">
+            <h3>Grilled Fish</h3>
+            <p>Fresh whole fish spiced and grilled to perfection.</p>
+            <span class="price">₦8,500</span>
+          </div>
+        </div>
+
+        <div class="card">
+          
+          <img src="burger.jpeg" alt="Beef Burger">
+          
+          <div class="card-body">
+            <h3>Beef Burger</h3>
+            <p>Double beef patty topped with cheese, served with fries.</p>
+            <span class="price">₦7,000</span>
+          </div>
+        </div>
+
+        <div class="card">
+          
+          <img src="chicken-alfredo.jpeg" alt="chicken-alfredo Pasta">
+          
+          <div class="card-body">
+            <h3>Chicken Alfredo Pasta</h3>
+            <p>Creamy pasta tossed with tender chicken chunks.</p>
+            <span class="price">₦7,500</span>
+          </div>
+        </div>
+
+        <div class="card">
+          
+          <img src="seafood.jpeg" alt="Seafood Rice">
+          
+          <div class="card-body">
+            <h3>Seafood Rice</h3>
+            <p>Stir-fried rice loaded with shrimp and calamari.</p>
+            <span class="price">₦9,000</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="chocolate.jpeg" alt="">
+          
+          <div class="card-body">
+            <h3>Chocolate Cake</h3>
+            <p>Rich and moist chocolate sponge cake slice.</p>
+            <span class="price">₦3,000</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <div class="about-card">
+        <p>
+          Welcome to Taste Haven! We are passionate about bringing you the best flavors
+          from around the world. Our chefs use only the freshest ingredients to craft
+          unforgettable meals in a warm, welcoming environment.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div class="container">
+      <h2>Customer Testimonials</h2>
+      <div class="testimonial-grid">
+
+        <div class="card testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"The food was amazing and the service was excellent. Highly recommend the grilled fish!"</p>
+          <h4>— Sarah M.</h4>
+        </div>
+
+        <div class="card testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Best Jollof rice in town. The atmosphere is warm and welcoming."</p>
+          <h4>— Chuks D.</h4>
+        </div>
+
+        <div class="card testimonial-card">
+          <div class="stars">★★★★☆</div>
+          <p>"Great place for family dinners. The desserts are to die for!"</p>
+          <h4>— Amina Y.</h4>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- OPENING HOURS -->
+  <section id="hours">
+    <div class="container">
+      <h2>Opening Hours</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday – Thursday</td>
+            <td>10:00 AM – 10:00 PM</td>
+          </tr>
+          <tr class="alt-row">
+            <td>Friday – Saturday</td>
+            <td>10:00 AM – 12:00 AM</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>11:00 AM – 9:00 PM</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- RESERVATION -->
+  <section id="reservation">
+    <div class="container">
+      <h2>Quick Reservation</h2>
+      <div class="form-card">
+        <form>
+          <div class="form-row">
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+          </div>
+          <div class="form-row">
+            <input type="date" required />
+            <input type="time" required />
+          </div>
+          <input type="number" placeholder="Number of Guests" min="1" required />
+          <button type="submit" class="btn">Book Table</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact">
+    <div class="container footer-grid">
+
+      <div class="footer-col">
+        <h3>Address</h3>
+        <p>Bauchi, Nigeria.</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <p>Phone: +234 800 123 4567</p>
+        <p>Email: info@tastehaven.com</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+
+          <!-- Facebook -->
+          <a href="#" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+          </a>
+
+          <!-- Instagram -->
+          <a href="#" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+            </svg>
+          </a>
+
+          <!-- Twitter / X -->
+          <a href="#" aria-label="Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Taste Haven Restaurant. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
